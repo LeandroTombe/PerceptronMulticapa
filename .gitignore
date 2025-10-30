@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (opcional - comentar si quieres versionar datasets)
+# datasets/
+
+# Logs y temporales
+*.log
+*.tmp
+temp/
+tmp/
+
+# Modelos entrenados
+models/
+*.pkl
+*.h5
+*.pth
+
+# Plots y resultados
+plots/
+results/
+experiments/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+
+notebooks/
